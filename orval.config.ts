@@ -2,19 +2,19 @@ import { defineConfig } from 'orval';
 
 export default defineConfig({
   api: {
-    input: 'http://localhost:8080/docs/json',
+    input: 'https://connect-api-trpo.onrender.com/docs/json',
     output: {
       target: './src/http/api.ts',
       client: 'fetch',
       httpClient: 'fetch',
       clean: true,
-      baseUrl: 'http://localhost:8080',
+      baseUrl: 'https://connect-api-trpo.onrender.com',
 
       override: {
         fetch: {
           includeHttpResponseReturnType: false,
-        }
-      }
+        },
+      },
     },
-  }
+  },
 })

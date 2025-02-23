@@ -13,7 +13,7 @@ interface InviteProps {
 
 export default async function Invite(props: InviteProps) {
   const { subscriberId } = await props.params
-  const inviteLink = `${process.env.NEXT_PUBLIC_INVITE_URL}${subscriberId}`	
+  const inviteLink = `${process.env.NEXT_PUBLIC_INVITE_URL}/invites/${subscriberId}`	
   return (
     <div className="min-h-dvh flex items-center justify-between gap-16 flex-col md:flex-row">
       <div className="flex flex-col gap-10 w-full max-w-[550px]">
