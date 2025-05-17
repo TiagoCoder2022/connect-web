@@ -1,34 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+    <img alt="nlw-co" title="#nlw-co" src=".github/favicon.webp" width="100px" />
+</div>
+<div align="center">
+    <img alt="nlw-connect" title="#nlw-connect" src=".github/logo.svg" width="250px" />
+</div>
 
-## Getting Started
+<p align="center">
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#requirements">Requirements</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#run-in-development-mode">Run in development mode</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#run-migrations">Run migrations</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#run-in-production-mode">Run in production mode</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#run-drizzle-studio">Run Drizzle Studio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technology">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
 
-First, run the development server:
+## 🈸 Project
 
-```bash
+The project is a responsive website for registration and referrals for events. This is a project for the NLW Connect event, one of the contents available to Rocketseat students.
+
+## Requirements
+
+- [ ✔ ] The application must be able to register for an event;
+- [ ✔ ] The application must be able to view accesses to the link by the registrant's ID;
+- [ ✔ ] The application must be able to view registrations made through the referral link by the registrant's ID;
+- [ ✔ ] The application must be able to view the registrant's ranking position;
+- [ ✔ ] The application must be able to view the ranking;
+
+## 🔧 Execution commands
+
+### Run in development mode
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Run migrations
+npm run db:migrate
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Run in production mode
+01 - npm run build
+02 - npm run start
 
-## Learn More
+### Run Drizzle Studio
+npm run db:studio
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Technologies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The project was developed using the following technologies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Node](https://nodejs.org)
+- [Fastify](https://fastify.dev)
+- [Zod](https://zod.dev)
+- [Drizzle](https://orm.drizzle.team)
+- [Docker](https://www.docker.com)
+- [Postgres](https://www.postgresql.org)
+- [Redis](https://redis.io)
+- [Typescript](https://www.typescriptlang.org)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## :memo: License
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
