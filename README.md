@@ -1,8 +1,8 @@
 <div align="center">
-    <img alt="nlw-co" title="#nlw-co" src=".github/favicon.webp" width="100px" />
+    <img alt="nlw-co" title="#nlw-co" src="./public/favicon.webp" width="100px" />
 </div>
 <div align="center">
-    <img alt="nlw-connect" title="#nlw-connect" src=".github/logo.svg" width="250px" />
+    <img alt="nlw-connect" title="#nlw-connect" src="./public/logo.svg" width="250px" />
 </div>
 
 <p align="center">
@@ -16,7 +16,7 @@
   <a href="#memo-license">License</a>
 </p>
 
-## 🈸 Project
+## 💻 Project
 
 The project is a responsive website for registration and referrals for events. This is a project for the NLW Connect event, one of the contents available to Rocketseat students.
 
